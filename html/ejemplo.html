@@ -7,6 +7,24 @@
     <script src="/js/ejemplo.js"></script>
 </head>
 <body>
-    
+    <div id="app">
+        <h1>Hola Mundo</h1>
+        <p id="demo">Este es un párrafo.</p>
+        <button id="myButton">Haz clic aquí</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            document.getElementById("result").innerHTML = "¡Botón clicado!";
+        });
+    </script>
+    <script src="/js/ejemplo.js"></script>
+    <script>
+        // Aquí puedes agregar más scripts si es necesario
+        // Por ejemplo, puedes llamar a funciones definidas en ejemplo.js
+        // o agregar más lógica de JavaScript.
+        // Ejemplo de llamada a una función definida en ejemplo.js
+        // myFunction();
+    </script>
 </body>
 </html>
